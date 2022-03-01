@@ -1,0 +1,45 @@
+[
+	{
+		"command": "git config -l",
+		"description": "Returnerar en lista av information om din git",
+		"useCase": "Kan vara av använding för att kolla t.ex det inloggade användarnamnet och email"
+	},
+	{
+		"command": "git revert HEAD",
+		"description": "Återställer senaste commiten"
+	},
+	{
+		"command": "git revert comit_id_here",
+		"description": "Återställer en specifik commit"
+	},
+	{
+		"command": "git branch branch_name",
+		"description": "Skapar en ny branch",
+		"useCase": "Ändra branch_name till namnet på din branch"
+	},
+	{
+		"command": "git branch",
+		"description": "Visar alla skapade branches",
+		"useCase": "Få koll på vilka branches som finns, samt vilken du står i"
+	},
+	{
+		"command": "git checkout branch_name",
+		"description": "Byter till den specifierade branchen"
+	},
+	{
+		"command": "git checkout -b branch_name",
+		"description": "Skapar och byter till en ny branch"
+	},
+	{
+		"command": "git branch -d branch_name",
+		"description": "Tar bort en specifierad branch"
+	},
+	{
+		"command": "git merge branch_name",
+		"description": "Lägger ihop den branch du är i med den specifierade branchen"
+	},
+	{
+		"command": "git log --graph --oneline",
+		"description": "Visar en sammanställning av commit logen, med en rad per commit"
+	}
+]
