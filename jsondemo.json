@@ -16,5 +16,37 @@
 		"command": "git branch branch_name",
 		"description": "Skapar en ny branch",
 		"useCase": "Ändra branch_name till namnet på din branch"
+	},
+    	{
+		"command": "git push -u origin branch_name",
+		"description": "Skickar en branch till ett remote repo"
+	},
+	{
+		"command": "git push --delete origin branch_name_here",
+		"description": "Tar bort en branch"
+	},
+	{
+		"command": "git rebase branch_name_here",
+		"description": "Ett alternativ till merge för att föra in ändringar i en branch"
+	},
+	{
+		"command": "git rebase -i master",
+		"description": "-i kommandot ger dig fler alternativ i hur din rebase ska gå till"
+	},
+	{
+		"command": "git push -f",
+		"description": "Tvingar igenom en push"
+	},
+	{	
+		"command": "git log --graph",
+		"description": "En utförlig sammanställning av commit loggen"
+	},
+	{
+		"command": "git help --all",
+		"description": "Visar alla tillgängliga commands"
+	},
+	{
+		"command": "git status --short",
+		"description": "Visar ett kortare statusmeddelande"
 	}
 ]
