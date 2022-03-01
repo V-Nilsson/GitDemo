@@ -7,5 +7,9 @@
 	{
 		"command": "git revert HEAD",
 		"description": "Återställer senaste commiten"
+	},
+	{
+		"command": "git revert comit_id_here",
+		"description": "Återställer en specifik commit"
 	}
 ]
