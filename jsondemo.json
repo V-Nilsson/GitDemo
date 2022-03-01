@@ -1,0 +1,20 @@
+[
+	{
+		"command": "git config -l",
+		"description": "Returnerar en lista av information om din git",
+		"useCase": "Kan vara av använding för att kolla t.ex det inloggade användarnamnet och email"
+	},
+	{
+		"command": "git revert HEAD",
+		"description": "Återställer senaste commiten"
+	},
+	{
+		"command": "git revert comit_id_here",
+		"description": "Återställer en specifik commit"
+	},
+	{
+		"command": "git branch branch_name",
+		"description": "Skapar en ny branch",
+		"useCase": "Ändra branch_name till namnet på din branch"
+	}
+]
