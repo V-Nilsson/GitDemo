@@ -11,5 +11,10 @@
 	{
 		"command": "git revert comit_id_here",
 		"description": "Återställer en specifik commit"
+	},
+	{
+		"command": "git branch branch_name",
+		"description": "Skapar en ny branch",
+		"useCase": "Ändra branch_name till namnet på din branch"
 	}
 ]
