@@ -1,0 +1,7 @@
+[
+	{
+		"command": "git config -l",
+		"description": "Returnerar en lista av information om din git",
+		"useCase": "Kan vara av använding för att kolla t.ex det inloggade användarnamnet och email"
+	}
+]
